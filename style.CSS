@@ -426,7 +426,7 @@ header {
         padding: 1.2rem;
     }
     .self_img {
-        width:90%;
+        width:80%;
     }
     .intro_word {
         padding: 2rem 1rem;
@@ -446,7 +446,7 @@ header {
         justify-content: center;
         flex-direction: column;
         padding: 40px 0px 40px 0px;
-        background-position: 55% top;
+        background-position: 55% bottom;
         background-size: 190%;
         width: 100%;
     }
