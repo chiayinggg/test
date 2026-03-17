@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Yijie | Works</title>
+        <link rel="stylesheet" href="style.CSS" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Serif+TC:wght@200..900&family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="title">
+                <a href="index.html">Yijie</a>
+            </div>
+
+            <input type="checkbox" id="menu_control">
+            <label for="menu_control" class="menuBtn"></label>
+
+            <div class="nav">
+                <div class="nav_item">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav_item">
+                    <a href="works.html">Works</a>
+                </div>
+                <div class="nav_item">
+                    <a href="https://forms.gle/PP2oy3hwgQuXnarc6" target="_blank">Book</a>
+                </div>
+                <div class="nav_item">
+                    <a href="https://www.instagram.com/_ph.j1_?igsh=MWg1aDdjZXB0enppOQ==" target="_blank">
+                        <img src="ig_icon.png" class="ig_icon">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="theme">
+            <div class="works_theme">
+                <a href="#portraits">人像攝影</a>
+            </div>
+            <div class="works_theme">
+                <a href="#activity">活動攝影</a>
+            </div>
+            <div class="works_theme">
+                <a href="#street">街拍</a>
+            </div>
+        </div>
+        <div class="portraits">
+            <div class="theme_title">
+                <p id="portraits">人像攝影</p>
+            </div>
+            <div class="slide">
+                <div class="slide_a">
+                    <img class="a" src="portraits/當我們不在一起/1.jpg">
+                </div>
+                <div class="slide_a">
+                    <img class="a" src="portraits/當我們不在一起/2.jpg">
+                </div>
+                <div class="slide_a">
+                    <img class="a" src="portraits/當我們不在一起/3.jpg">
+                </div>
+                <div class="slide_a">
+                    <img class="b" src="portraits/當我們不在一起/4.jpg">
+                </div>
+                <div class="slide_a">
+                    <img class="b" src="portraits/當我們不在一起/5.jpg">
+                </div>
+                <div class="slide_a">
+                    <img class="b" src="portraits/當我們不在一起/6.jpg">
+                </div>
+                <div class="slide_a">
+                    <img class="a" src="portraits/當我們不在一起/7.jpg">
+                </div>
+                <div class="slide_a">
+                    <img class="b" src="portraits/當我們不在一起/8.jpg">
+                </div>
+                <div class="slide_a">
+                    <img class="a" src="portraits/當我們不在一起/9.jpg">
+                </div>
+                <a class="prev" onclick="Plus(0,-1)"><</a>
+                <a class="next" onclick="Plus(0,1)">></a>
+            </div>
+            <div class="dot-container" style="text-align:center; margin: 15px;">
+                <span class="dot" onclick="Current(0,1)"></span>
+                <span class="dot" onclick="Current(0,2)"></span>
+                <span class="dot" onclick="Current(0,3)"></span>
+                <span class="dot" onclick="Current(0,4)"></span>
+                <span class="dot" onclick="Current(0,5)"></span>
+                <span class="dot" onclick="Current(0,6)"></span>
+                <span class="dot" onclick="Current(0,7)"></span>
+                <span class="dot" onclick="Current(0,8)"></span>
+                <span class="dot" onclick="Current(0,9)"></span>
+            </div>
+            <div class="topic">
+                <p>"當我們不在一起"</p>
+            </div>
+            <div class="slide">
+                <div class="slide_d">
+                    <img class="a" src="portraits/畢業寫真/1.jpg">
+                </div>
+                <div class="slide_d">
+                    <img class="a" src="portraits/畢業寫真/2.jpg">
+                </div>
+                <div class="slide_d">
+                    <img class="a" src="portraits/畢業寫真/3.jpg">
+                </div>
+                <div class="slide_d">
+                    <img class="a" src="portraits/畢業寫真/4.jpg">
+                </div>
+                <div class="slide_d">
+                    <img class="a" src="portraits/畢業寫真/5.jpg">
+                </div>
+                <div class="slide_d">
+                    <img class="a" src="portraits/畢業寫真/6.jpg">
+                </div>
+                <div class="slide_d">
+                    <img class="a" src="portraits/畢業寫真/7.jpg">
+                </div>
+                <div class="slide_d">
+                    <img class="a" src="portraits/畢業寫真/8.jpg">
+                </div>
+                <a class="prev" onclick="Plus(3,-1)"><</a>
+                <a class="next" onclick="Plus(3,1)">></a>
+            </div>
+            <div class="dot-container" style="text-align:center; margin: 15px;">
+                <span class="dot" onclick="Current(3,1)"></span>
+                <span class="dot" onclick="Current(3,2)"></span>
+                <span class="dot" onclick="Current(3,3)"></span>
+                <span class="dot" onclick="Current(3,4)"></span>
+                <span class="dot" onclick="Current(3,5)"></span>
+                <span class="dot" onclick="Current(3,6)"></span>
+                <span class="dot" onclick="Current(3,7)"></span>
+                <span class="dot" onclick="Current(3,8)"></span>
+            </div>
+            <div class="topic">
+                <p>"畢業寫真"</p>
+            </div>
+            <div class="slide">
+                <div class="slide_b">
+                    <img class="a" src="portraits/Who_am_I/1.jpg">
+                </div>
+                <div class="slide_b">
+                    <img class="a" src="portraits/Who_am_I/2.jpg">
+                </div>
+                <div class="slide_b">
+                    <img class="a" src="portraits/Who_am_I/3.jpg">
+                </div>
+                <div class="slide_b">
+                    <img class="a" src="portraits/Who_am_I/4.jpg">
+                </div>
+                <div class="slide_b">
+                    <img class="a" src="portraits/Who_am_I/5.jpg">
+                </div>
+                <a class="prev" onclick="Plus(1,-1)"><</a>
+                <a class="next" onclick="Plus(1,1)">></a>
+            </div>
+            <div class="dot-container" style="text-align:center; margin: 15px;">
+                <span class="dot" onclick="Current(1,1)"></span>
+                <span class="dot" onclick="Current(1,2)"></span>
+                <span class="dot" onclick="Current(1,3)"></span>
+                <span class="dot" onclick="Current(1,4)"></span>
+                <span class="dot" onclick="Current(1,5)"></span>
+            </div>
+            <div class="topic">
+                <p>"Who Am I"</p>
+            </div>
+            <div class="slide">
+                <div class="slide_c">
+                    <img class="a" src="portraits/社會框架的拘束/1.jpg">
+                </div>
+                <div class="slide_c">
+                    <img class="a" src="portraits/社會框架的拘束/2.jpg">
+                </div>
+                <div class="slide_c">
+                    <img class="a" src="portraits/社會框架的拘束/3.jpg">
+                </div>
+                <div class="slide_c">
+                    <img class="a" src="portraits/社會框架的拘束/4.jpg">
+                </div>
+                <div class="slide_c">
+                    <img class="a" src="portraits/社會框架的拘束/5.jpg">
+                </div>
+                <a class="prev" onclick="Plus(2,-1)"><</a>
+                <a class="next" onclick="Plus(2,1)">></a>
+            </div>
+            <div class="dot-container" style="text-align:center; margin: 15px;">
+                <span class="dot" onclick="Current(2,1)"></span>
+                <span class="dot" onclick="Current(2,2)"></span>
+                <span class="dot" onclick="Current(2,3)"></span>
+                <span class="dot" onclick="Current(2,4)"></span>
+                <span class="dot" onclick="Current(2,5)"></span>
+            </div>
+            <div class="topic">
+                <p>"社會框架的拘束"</p>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="theme_title">
+                <p id="activity">活動攝影</p>
+            </div>
+            <div class="grid">
+                <figure class="grid_item">
+                    <img src="activity/湖畔/1.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/湖畔/2.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/湖畔/3.jpg">
+                </figure>
+                <figure class="grid_item_straight">
+                    <img src="activity/湖畔/4.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/湖畔/5.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/湖畔/6.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/湖畔/7.jpg">
+                </figure>
+                <figure class="grid_item_straight">
+                    <img src="activity/球賽/7.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/湖畔/8.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/湖畔/9.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/湖畔/10.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/球賽/1.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/球賽/2.jpg">
+                </figure>
+                <figure class="grid_item_straight">
+                    <img src="activity/球賽/10.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/球賽/3.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/球賽/4.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/球賽/5.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/球賽/6.jpg">
+                </figure>
+                <figure class="grid_item_straight">
+                    <img src="activity/球賽/13.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/球賽/8.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/球賽/9.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/球賽/11.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/球賽/12.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="activity/球賽/14.jpg">
+                </figure>
+            </div>
+        </div>
+        <div class="street">
+            <div class="theme_title">
+                <p id="street">街拍</p>
+            </div>
+            <div class="grid">
+                <figure class="grid_item">
+                    <img src="street/2.jpg">
+                </figure>
+                <figure class="grid_item_straight">
+                    <img src="street/1.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="street/7.jpg">
+                </figure>
+                <figure class="grid_item_straight">
+                    <img src="street/3.jpg">
+                </figure>
+                <figure class="grid_item_straight">
+                    <img src="street/4.jpg">
+                </figure>
+                <figure class="grid_item_straight">
+                    <img src="street/5.jpg">
+                </figure>
+                <figure class="grid_item_straight">
+                    <img src="street/6.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="street/8.jpg">
+                </figure>
+                <figure class="grid_item_straight">
+                    <img src="street/11.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="street/9.jpg">
+                </figure>
+                <figure class="grid_item_straight">
+                    <img src="street/12.jpg">
+                </figure>
+                <figure class="grid_item">
+                    <img src="street/10.jpg">
+                </figure>
+            </div>
+        </div>
+    </body>
+</html>
