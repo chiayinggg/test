@@ -2,21 +2,27 @@ let slideIndex = [1,1,1,1];
 let slideId = ["slide_a", "slide_b", "slide_c", "slide_d"]
 
 window.onload = function() {
-    showSlides(0,1);
-    showSlides(1,1);
-    showSlides(2,1);
-    showSlides(3,1);
+  const dotsCheck = document.getElementsByClassName("dot-container");
+    
+  if (dotsCheck.length > 0) {
+      showSlides(0, 1);
+      showSlides(1, 1);
+      showSlides(2, 1);
+      showSlides(3, 1);
+  }  
 
-    const menuControl = document.getElementById('menu_control');
+  const menuControl = document.getElementById('menu_control');
 
-    menuControl.addEventListener('change', function(){
+  menuControl.addEventListener('change', function(){
+    if (menuControl) {
       if (this.checked) {
-        document.body.classList.add('stop-scrolling');
+      document.body.classList.add('stop-scrolling');
       }
       else {
         document.body.classList.remove('stop-scrolling');
       }
-    });
+    }
+  });
 };
 
 function Plus(s, n) {
