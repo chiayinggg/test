@@ -397,6 +397,9 @@ header {
     #menu_control:checked ~ .nav {
         right: 0px;
     }
+    #menu_control:checked ~ body {
+        overflow-y: hidden;
+    }
     body {
         overflow-x: hidden;
     }
