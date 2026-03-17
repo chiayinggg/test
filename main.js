@@ -1,6 +1,17 @@
 let slideIndex = [1,1,1,1];
 let slideId = ["slide_a", "slide_b", "slide_c", "slide_d"]
 
+const menuControl = document.getElementById('menu_control');
+
+menuControl.addEnventListener('change', function(){
+  if (this.checked) {
+    document.body.classList.add('stop-scrolling');
+  }
+  else {
+    document.body.classList.remoove('stop-scrolling');
+  }
+});
+
 window.onload = function() {
     showSlides(0,1);
     showSlides(1,1);
