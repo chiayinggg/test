@@ -87,6 +87,8 @@ header {
     display: block;
     color: white;
     text-decoration: none;
+    outline: none;
+    -webkit-tap-highlght-color: transparent;
 }
 
 .ig_icon {
