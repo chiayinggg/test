@@ -363,9 +363,9 @@ header {
         background-color: rgba(0, 49, 83, 0.8);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
-        top: 80px;
-        width: 80%;
-        height: calc(100vh - 80px);
+        top: 50px;
+        width: 70%;
+        height: calc(100vh - 50px);
         padding: 0px;
         right: -100%;
         transition: right 0.8s ease-in-out;
