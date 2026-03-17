@@ -2,6 +2,17 @@
     box-sizing: border-box;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.stop-scrolling {
+    height: 100vh;
+    overflow: hidden;
+}
+
 header {
     background-color: #003153;
     height: 80px;
@@ -388,7 +399,6 @@ header {
         padding-bottom: 0;
     }
     .intro {
-        position: absolute;
         justify-content: center;
         flex-direction: column;
         padding: 1.2rem;
