@@ -3,7 +3,6 @@ let slideId = ["slide_a", "slide_b", "slide_c", "slide_d"]
 
 window.onload = function() {
   const dotsCheck = document.getElementsByClassName("dot-container");
-    
   if (dotsCheck.length > 0) {
       showSlides(0, 1);
       showSlides(1, 1);
@@ -12,7 +11,6 @@ window.onload = function() {
   }  
 
   const menuControl = document.getElementById('menu_control');
-
   menuControl.addEventListener('change', function(){
     if (menuControl) {
       if (this.checked) {
