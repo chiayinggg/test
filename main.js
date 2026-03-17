@@ -32,7 +32,7 @@ function showSlides(s,n) {
   let slides = document.getElementsByClassName(slideId[s]);
   let dotContainers = document.getElementsByClassName("dot-container")
   let dots = dotContainers[s].getElementsByClassName("dot");
-
+  console.log(dots);
   if (n > slides.length) {slideIndex[s] = 1}    
   if (n < 1) {slideIndex[s] = slides.length}
 
