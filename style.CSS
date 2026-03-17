@@ -6,6 +6,7 @@
 html, body {
     max-width: 100%;
     position: relative;
+    overflow-x: hidden;
 }
 
 .stop-scrolling {
@@ -24,6 +25,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    max-width: 100%;
 }
 
 .menuBtn {
